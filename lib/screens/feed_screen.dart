@@ -20,6 +20,7 @@ class FeedScreen extends StatelessWidget {
 
 PreferredSizeWidget feedAppBar() {
   return AppBar(
+    centerTitle: true,
     title: const Text(
       "자유톡",
       style: TextStyle(
